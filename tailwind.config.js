@@ -6,6 +6,8 @@ export default {
     extend: {
       colors: {
         'dark-blue': 'rgb(13, 27, 42)',
+        'dark-icon-blue': 'rgb(22, 53, 76)',
+        'dark-icon2-blue': 'rgb(22, 52, 76)',
       },
       fontFamily: {
         'modern-serif': ['Roboto', 'sans-serif'],

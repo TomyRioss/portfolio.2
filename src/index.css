@@ -10,7 +10,12 @@ body,
 }
 
 #root {
-  background: linear-gradient(to right, rgb(205, 255, 255), rgb(255, 255, 255));
+  background: linear-gradient(
+    to right,
+    rgba(205, 255, 255, 0.884),
+    rgba(255, 255, 255, 0.877),
+    #97cccf
+  );
   background-size: cover;
   background-position: center;
 }

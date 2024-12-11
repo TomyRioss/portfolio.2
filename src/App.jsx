@@ -10,7 +10,6 @@ function App() {
       <Router>
         <NavBar />
       </Router>
-      <NameTitle />
     </>
   );
 }
