@@ -17,5 +17,16 @@ export default {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    function ({ addUtilities }) {
+      addUtilities({
+        '.text-gradient': {
+          'background-clip': 'text',
+          '-webkit-background-clip': 'text',
+          color: 'transparent',
+          '-webkit-text-fill-color': 'transparent',
+        },
+      });
+    },
+  ],
 };
