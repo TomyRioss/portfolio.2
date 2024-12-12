@@ -2,31 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-html,
-body,
-#root {
-  height: 100%;
-  margin: 0;
-}
-
-#root {
-  background: linear-gradient(
-    to right,
-    rgba(205, 255, 255, 0.884),
-    rgb(191, 247, 244),
-    #97cccf
-  );
-  background-size: cover;
-  background-position: center;
-}
-
-.dark #root {
-  background: linear-gradient(
-    to bottom right,
-    rgb(18, 32, 47),
-    rgb(0, 26, 65),
-    rgb(36, 0, 70)
-  );
+html {
+  scroll-behavior: smooth;
 }
 
 html,

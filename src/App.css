@@ -1,0 +1,29 @@
+#header-content {
+  background: linear-gradient(
+    to right,
+    rgba(205, 255, 255, 0.884),
+    rgb(220, 250, 248),
+    #a3dde0
+  );
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.dark #header-content {
+  background: linear-gradient(
+    to bottom right,
+    rgb(18, 32, 47),
+    rgb(0, 26, 65),
+    rgb(36, 0, 70)
+  );
+}
+
+#body-content {
+  background: linear-gradient(
+    to bottom right,
+    rgb(239, 250, 253),
+    rgb(212, 249, 255)
+  );
+}
