@@ -13,7 +13,7 @@ body,
   background: linear-gradient(
     to right,
     rgba(205, 255, 255, 0.884),
-    rgba(255, 255, 255, 0.877),
+    rgb(191, 247, 244),
     #97cccf
   );
   background-size: cover;

@@ -27,7 +27,7 @@ const NavBar = () => {
 
   return (
     <>
-      <nav className="fixed top-0 left-0 py-5 h-13 bg-gray-500 dark:bg-opacity-10 dark:text-white text-center w-full transition-colors duration-300 dark:bg-dark-blue bg-opacity-10 backdrop-blur-3xl z-10">
+      <nav className="fixed top-0 left-0 py-5 h-13 bg-gray-500 dark:bg-opacity-10 dark:text-white text-center w-full transition-colors duration-300 dark:bg-blue-900 bg-opacity-10 backdrop-blur-3xl drop-shadow-2xl shadow-2xl z-10">
         <ul className="flex space-x-8 justify-center font-modern-serif mt-3">
           <li className="hover:text-gray-900 dark:hover:text-gray-300 ">
             <NavLink to="/">
