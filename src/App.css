@@ -27,3 +27,7 @@
     rgb(212, 249, 255)
   );
 }
+
+.dark #body-content {
+  background: linear-gradient(to bottom right, rgb(18, 32, 47), rgb(0, 26, 65));
+}

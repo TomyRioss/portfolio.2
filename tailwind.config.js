@@ -28,6 +28,14 @@ export default {
           color: 'transparent',
           '-webkit-text-fill-color': 'transparent',
         },
+        '.underline-custom::after': {
+          content: '""',
+          display: 'block',
+          width: '15%',
+          height: '6px',
+          backgroundColor: '#4ade80',
+          marginTop: '4px',
+        },
       });
     },
   ],

@@ -8,7 +8,10 @@ import AboutMe from './components/AboutMe';
 
 function App() {
   //TODO - Mismo efectos de levantamiento para icono de github y linkedin que el de descargar CV
-  // TODO - Arreglar hover de Navbar, sobre todo tema claro.
+  //TODO - Arreglar hover de Navbar, sobre todo tema claro.
+  //TODO - Dropshadow a la lista del navbar.
+  //TODO - Agregar opción cambiar de lenguaje.
+
   return (
     <>
       <div id="header-content">
@@ -18,11 +21,21 @@ function App() {
           </header>
         </Router>
       </div>
-      <div
-        id="body-content"
-        className="bg-transparent border-1-black drop-shadow-2xl mt-16 flex justify-center"
-      >
-        <AboutMe />
+      <div id="body-content">
+        <div className="flex justify-center">
+          <AboutMe />
+        </div>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
       </div>
     </>
   );
