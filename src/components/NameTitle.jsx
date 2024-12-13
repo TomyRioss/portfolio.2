@@ -56,11 +56,20 @@ const NameTitle = ({ darkMode }) => {
           )}
           <div className="ml-6 flex items-center space-x-4">
             <a
-              href="/assets/TomasRios.pdf"
+              href="/assets/TomasRiosEs.pdf"
+              target="blank"
               className="flex items-center bg-gradient-to-r from-blue-500 to-cyan-500 hover:from-cyan-500 hover:to-blue-500 text-white rounded-xl py-4 px-6 shadow-lg transform transition-all duration-400 ease-in-out hover:scale-105 font-modern-serif"
             >
               <ArrowDownTrayIcon className="h-6 w-6 mr-2 transform transition-all duration-400 ease-in-out" />
-              <span>Descargar CV</span>
+              <span>Descargar CV Español</span>
+            </a>
+            <a
+              href="/assets/TomasRiosEn.pdf"
+              target="blank"
+              className="flex items-center bg-gradient-to-r from-blue-500 to-cyan-500 hover:from-cyan-500 hover:to-blue-500 text-white rounded-xl py-4 px-6 shadow-lg transform transition-all duration-400 ease-in-out hover:scale-105 font-modern-serif"
+            >
+              <ArrowDownTrayIcon className="h-6 w-6 mr-2 transform transition-all duration-400 ease-in-out" />
+              <span>Download CV English</span>
             </a>
           </div>
         </div>
