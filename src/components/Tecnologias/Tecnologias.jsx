@@ -7,6 +7,7 @@ import {
   FaPhp,
   FaPython,
   FaBootstrap,
+  FaGithub,
 } from 'react-icons/fa';
 import {
   SiTypescript,
@@ -16,13 +17,19 @@ import {
   SiNextdotjs,
   SiPostgresql,
   SiSqlite,
+  SiPostman,
+  SiIntellijidea,
+  SiInsomnia,
 } from 'react-icons/si';
+import { DiVisualstudio } from 'react-icons/di';
+import { BiLogoVisualStudio } from 'react-icons/bi';
+import { LuEclipse } from 'react-icons/lu';
 import styles from './Tecnologias.module.css';
 
 const Tecnologias = () => {
   return (
-    <div className="text-black dark:text-white mt-12 bg-transparent dark:bg-black dark:bg-opacity-20 border-4 shadow-2xl drop-shadow-2xl p-20 border-black mx-48 rounded-lg min-w-100 w-100 h-100">
-      <h3 className="flex mb-20 text-2xl font-modern-serif justify-center">
+    <div className="text-black dark:text-white mt-12 bg-transparent dark:bg-black dark:bg-opacity-20 border-4 shadow-2xl drop-shadow-2xl px-11 py-12 border-black mx-56 rounded-lg w-1000">
+      <h3 className="flex mb-20 text-3xl font-modern-serif justify-center font-semibold">
         Tecnologias
       </h3>
       <div className={`${styles.slider} `}>
@@ -68,6 +75,34 @@ const Tecnologias = () => {
           </div>
           <div className={`${styles.slide}`}>
             <SiSqlite className="w-10 h-10" />
+          </div>
+        </div>
+      </div>
+      <h3 className="flex mt-20 text-3xl font-modern-serif justify-center font-semibold">
+        Herramientas
+      </h3>
+      <div className={`${styles.sliderLeft} `}>
+        <div className={`${styles.slide_trackLeft} mt-24`}>
+          <div className={`${styles.slideLeft}`}>
+            <FaGithub className="w-10 h-10" />
+          </div>
+          <div className={`${styles.slideLeft}`}>
+            <SiIntellijidea className="w-10 h-10" />
+          </div>
+          <div className={`${styles.slideLeft}`}>
+            <SiPostman className="w-10 h-10" />
+          </div>
+          <div className={`${styles.slideLeft}`}>
+            <SiInsomnia className="w-10 h-10" />
+          </div>
+          <div className={`${styles.slideLeft}`}>
+            <DiVisualstudio className="w-10 h-10" />
+          </div>
+          <div className={`${styles.slideLeft}`}>
+            <BiLogoVisualStudio className="w-10 h-10" />
+          </div>
+          <div className={`${styles.slideLeft}`}>
+            <LuEclipse className="w-10 h-10" />
           </div>
         </div>
       </div>
