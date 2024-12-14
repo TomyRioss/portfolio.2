@@ -17,6 +17,16 @@ export default {
           'color, background-color, border-color, text-decoration-color, fill, stroke',
         background: 'background-color',
       },
+      // Aquí añades las animaciones dentro de extend
+      animation: {
+        'scroll-horizontal': 'scroll-horizontal 20s linear infinite',
+      },
+      keyframes: {
+        'scroll-horizontal': {
+          '0%': { transform: 'translateX(0)' },
+          '100%': { transform: 'translateX(-100%)' },
+        },
+      },
     },
   },
   plugins: [

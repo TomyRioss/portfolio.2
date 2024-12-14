@@ -111,12 +111,17 @@ const aboutMe = () => {
               <li className="mb-7 mt-7">
                 <h3 className="font-bold text-xl mb-1">TalentoTech</h3>
                 <p className="text-sm mb-1">Jun. 2024 - Dic. 2024</p>
-                <p>Introducción A Python</p>
+                <p>Introducción a Python</p>
               </li>
               <li className="mb-7 mt-7">
-                <h3 className="font-bold text-xl mb-1">DuocUC</h3>
-                <p className="text-sm mb-1">2016</p>
-                <p>Diseño Gráfico</p>
+                <h3 className="font-bold text-xl mb-1">Domestika</h3>
+                <p className="text-sm mb-1">2024</p>
+                <p>Introducción a la IA con Python</p>
+              </li>
+              <li className="mb-7 mt-7">
+                <h3 className="font-bold text-xl mb-1">TodoCode</h3>
+                <p className="text-sm mb-1">2024</p>
+                <p>Introducción a Java</p>
               </li>
             </ul>
           </div>

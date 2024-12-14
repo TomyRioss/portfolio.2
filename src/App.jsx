@@ -5,6 +5,7 @@ import './App.css';
 import NameTitle from './components/NameTitle';
 import { Route, BrowserRouter as Router } from 'react-router-dom';
 import AboutMe from './components/AboutMe';
+import Tecnologias from './components/Tecnologias/Tecnologias';
 
 function App() {
   //TODO - Mismo efectos de levantamiento para icono de github y linkedin que el de descargar CV
@@ -25,6 +26,10 @@ function App() {
         <div className="flex justify-center">
           <AboutMe />
         </div>
+        <div className="flex justify-center">
+          <Tecnologias />
+        </div>
+
         <br />
         <br />
         <br />
