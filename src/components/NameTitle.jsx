@@ -74,9 +74,9 @@ const NameTitle = ({ darkMode }) => {
           </div>
         </div>
       </div>
-      <div className="flex justify-center pt-96 scroll-smooth ">
+      <div className="flex justify-center pt-96 scroll-smooth absolute bottom-0 mb-5 w-full">
         <a href="#aboutMe">
-          <ArrowDownIcon className=" h-10 w-10 motion-safe:animate-bounce duration-300 transition-all dark:text-white text-black" />
+          <ArrowDownIcon className="h-10 w-10 motion-safe:animate-bounce duration-300 transition-all dark:text-white text-black" />
         </a>
       </div>
     </>
