@@ -29,7 +29,10 @@ import styles from './Tecnologias.module.css';
 const Tecnologias = () => {
   return (
     <div className="text-black dark:text-white mt-12 bg-transparent dark:bg-black dark:bg-opacity-20 border-4 shadow-2xl drop-shadow-2xl px-11 py-12 border-black mx-56 rounded-lg w-1000">
-      <h3 className="flex mb-20 text-3xl font-modern-serif justify-center font-semibold">
+      <h3
+        className="flex mb-20 text-3xl font-modern-serif justify-center font-semibold"
+        id="tecnologies"
+      >
         Tecnologias
       </h3>
       <div className={`${styles.slider} `}>

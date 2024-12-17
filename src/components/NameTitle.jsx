@@ -5,7 +5,7 @@ import { ArrowDownIcon } from '@heroicons/react/24/outline';
 const NameTitle = ({ darkMode }) => {
   return (
     <>
-      <div className="pt-72 pl-48 text-dark-blue dark:text-white ">
+      <div className="pt-72 pl-48 text-dark-blue dark:text-white " id="main">
         <h1
           className="py-12 text-7xl font-modern-serif font-semibold"
           style={{ textShadow: '4px 4px 6px rgba(0, 0, 0, 0.2)' }}
@@ -74,8 +74,8 @@ const NameTitle = ({ darkMode }) => {
           </div>
         </div>
       </div>
-      <div className="flex justify-center pt-72 scroll-smooth ">
-        <a href="#aboutMe" className="">
+      <div className="flex justify-center pt-96 scroll-smooth ">
+        <a href="#aboutMe">
           <ArrowDownIcon className=" h-10 w-10 motion-safe:animate-bounce duration-300 transition-all dark:text-white text-black" />
         </a>
       </div>

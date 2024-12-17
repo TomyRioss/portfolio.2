@@ -2,12 +2,15 @@ import React from 'react';
 
 const Projects = () => {
   return (
-    <div className="text-black dark:text-white mt-12 bg-transparent dark:bg-black dark:bg-opacity-20 border-4 shadow-2xl drop-shadow-2xl px-11 py-12 border-black mx-52 rounded-lg font-modern-serif">
+    <div
+      className="text-black dark:text-white mt-12 bg-transparent dark:bg-black dark:bg-opacity-20 border-4 shadow-2xl drop-shadow-2xl px-11 py-12 border-black mx-52 rounded-lg font-modern-serif"
+      id="projects"
+    >
       <h3 className="flex mb-20 text-3xl font-modern-serif justify-center font-semibold">
         Proyectos
       </h3>
       <div className="flex flex-wrap justify-center gap-16">
-        <div className="flex flex-col justify-center items-center border-4 bg-slate-900 border-black rounded-lg shadow-2xl drop-shadow-2xl p-7 w-80">
+        <div className="flex flex-col justify-center items-center border-4 bg-slate-100 dark:bg-slate-900 border-black rounded-lg shadow-2xl drop-shadow-2xl p-7 w-80">
           <h4 className="mb-5 text-2xl">SleekStyles</h4>
           <img
             src="./assets/sleekstyles.png"
@@ -48,7 +51,7 @@ const Projects = () => {
             </a>
           </div>
         </div>
-        <div className="flex flex-col justify-center items-center border-4 bg-slate-900 border-black rounded-lg shadow-2xl drop-shadow-2xl p-7 w-80">
+        <div className="flex flex-col justify-center items-center border-4 bg-slate-100 dark:bg-slate-900 border-black rounded-lg shadow-2xl drop-shadow-2xl p-7 w-80">
           <h4 className="mb-5 text-2xl">SoyFrench</h4>
 
           <ul className="flex flex-wrap mt-5">
@@ -78,7 +81,7 @@ const Projects = () => {
             </a>
           </div>
         </div>
-        <div className="flex flex-col justify-center items-center border-4 bg-slate-900 border-black rounded-lg shadow-2xl drop-shadow-2xl p-7 w-80">
+        <div className="flex flex-col justify-center items-center border-4 bg-slate-100 dark:bg-slate-900 border-black rounded-lg shadow-2xl drop-shadow-2xl p-7 w-80">
           <h4 className="mb-5 text-2xl">Portfolio</h4>
           <img
             src="./assets/portfolio.png"

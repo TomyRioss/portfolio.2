@@ -29,24 +29,24 @@ const NavBar = () => {
     <>
       <nav className="fixed top-0 left-0 py-5 h-13 bg-gray-500 dark:bg-opacity-10 dark:text-white text-center w-full transition-colors duration-300 dark:bg-blue-900 bg-opacity-10 backdrop-blur-3xl drop-shadow-2xl shadow-2xl z-10">
         <ul className="flex space-x-8 justify-center font-modern-serif mt-3">
-          <li className="hover:text-gray-900 dark:hover:text-gray-300 ">
-            <NavLink to="/">
+          <li className="hover:text-cyan-400 dark:hover:text-gray-300 ">
+            <a href="#main">
               <h1>HOME</h1>
-            </NavLink>
-          </li>
-          <li className="hover:text-gray-900 dark:hover:text-gray-300 ">
-            <NavLink to="/">SOBRE MI</NavLink>
-          </li>
-          <li className="hover:text-gray-900 dark:hover:text-gray-300 ">
-            <NavLink to="/">HABILIDADES</NavLink>
+            </a>
           </li>
           <li className="hover:text-cyan-400 dark:hover:text-gray-300 ">
-            <NavLink to="/">PROYECTOS</NavLink>
+            <a href="#aboutMe">SOBRE MI</a>
+          </li>
+          <li className="hover:text-cyan-400 dark:hover:text-gray-300 ">
+            <a href="#tecnologies">HABILIDADES</a>
+          </li>
+          <li className="hover:text-cyan-400 dark:hover:text-gray-300 ">
+            <a href="#projects">PROYECTOS</a>
           </li>
           <li>
             <button
               onClick={handleToggleDarkMode}
-              className="relative w-6 h-6 transition-opacity duration-300 ease-in-out"
+              className="relative w-6 h-6 transition-opacity duration-300 ease-in-out hover:text-cyan-400"
             >
               <SunIcon
                 className={`absolute bottom-0 h-7 w-7 transition-opacity duration-300 ease-in-out ${

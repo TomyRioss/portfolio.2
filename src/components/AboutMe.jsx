@@ -18,7 +18,7 @@ const aboutMe = () => {
       <div className="flex mt-5 ">
         <a
           className="flex items-center font-modern-serif text-sm ml-1 mr-2 hover:text-cyan-400"
-          href="https://mail.google.com/mail/u/0/?fs=1&to=tomyrios2006@gmail.com&su=Portfolio&body=Escribe+lo+que+quieras+decirme&tf=cm"
+          href="https://mail.google.com/mail/u/0/?fs=1&to=tomyrios2006@gmail.com&su=Portfolio&body=Escribe+tu+mensaje+aquí.&tf=cm"
           target="blank"
         >
           <EnvelopeIcon className="h-4 w-4 text-cyan-300" />
