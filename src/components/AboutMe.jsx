@@ -52,12 +52,13 @@ const aboutMe = () => {
         <div className="md:w-2/3 p-4">
           <p className="mt-6 font-modern-serif text-base leading-relaxed">
             Soy Tomás Rios, <strong>Frontend Developer</strong> con experiencia
-            en el desarrollo de aplicaciones web. A lo largo de mi carrera, he
-            tenido el privilegio de trabajar en proyectos desafiantes donde he
-            podido aplicar mi conocimiento en tecnologías modernas, como React,
-            JavaScript y CSS, con el objetivo de crear experiencias de usuario
-            intuitivas y de alto rendimiento. Mi enfoque siempre está en la
-            creación de soluciones eficientes, escalables y fáciles de mantener.
+            en el desarrollo de aplicaciones web de más de 2 años, programo
+            desde los 17 años. A lo largo de mi carrera, he tenido el privilegio
+            de trabajar en proyectos desafiantes donde he podido aplicar mi
+            conocimiento en tecnologías modernas, como React, JavaScript y CSS,
+            con el objetivo de crear experiencias de usuario intuitivas y de
+            alto rendimiento. Mi enfoque siempre está en la creación de
+            soluciones eficientes, escalables y fáciles de mantener.
             <br />
             <br />
             Mi pasión por el desarrollo web no solo se limita a escribir código;
@@ -101,8 +102,13 @@ const aboutMe = () => {
 
         <aside className="w-1/3">
           <div className="flex flex-col justify-center items-center p-4 font-modern-serif h-96 w-full">
-            <h2 className="text-3xl font-semibold mb-6">Educación</h2>
+            <h2 className="text-3xl font-semibold mb-6">Formación</h2>
             <ul>
+              <li className=" mb-7 mt-7 ">
+                <h3 className="font-bold text-2xl mb-1 ">Ing. Informática</h3>
+                <p className="text-sm mb-1">Jun. 2024 - Dic. 2024</p>
+                <p>Desarrollo React JS</p>
+              </li>
               <li className="mb-7 mt-7">
                 <h3 className="font-bold text-xl mb-1">UTN</h3>
                 <p className="text-sm mb-1">Jun. 2024 - Dic. 2024</p>
@@ -122,6 +128,11 @@ const aboutMe = () => {
                 <h3 className="font-bold text-xl mb-1">TodoCode</h3>
                 <p className="text-sm mb-1">2024</p>
                 <p>Introducción a Java</p>
+              </li>
+              <li className="mb-7 mt-7">
+                <h3 className="font-bold text-xl mb-1">Henry</h3>
+                <p className="text-sm mb-1">Dic. 2022 - Jun. 2023</p>
+                <p>Desarrollo FullStack</p>
               </li>
             </ul>
           </div>
